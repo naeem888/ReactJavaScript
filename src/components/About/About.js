@@ -1,12 +1,18 @@
  
  import React from "react";
 
- function About(){
+ function click(){
+    alert("Hello click")
+ }
+
+ function About( props){
 
     return(
-        <h1>Hello react I am from About Page</h1>
+        // <h1>This is about page and I am from function component</h1>;
+        // <button onClick={click}>Click Me</button>
+        <h1> Name : {props.name} and Email: {props.email}</h1>
     )
  
  }
 
- export default About; 
+ 
