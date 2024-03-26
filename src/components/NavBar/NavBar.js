@@ -4,23 +4,24 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // import '../../asset/css/bootstrap.min.css';
 import '../../asset/css/bootstrap.min.css';
-
+import LOGO from '../../asset/images/logo.png';
+import '../../asset/css/style.css';
 
 class NavBar extends Component {
   render() {
     return (
     <Fragment>
-        <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+        <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary navmenus">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home"><img src={LOGO} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             
 
           </Nav>
-          <Nav>
-            <Nav.Link href="#deets">HOME</Nav.Link>
+          <Nav className="navlink">
+            <Nav.Link href="#deets" className='ones'>HOME</Nav.Link>
             <Nav.Link href="#deets">SERVICE</Nav.Link>
             <Nav.Link href="#deets">PORTFOLIO</Nav.Link>
             <Nav.Link href="#deets">CONTACT</Nav.Link>

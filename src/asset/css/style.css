@@ -1,0 +1,12 @@
+.navmenus{
+    /* margin: 20px; */
+    background-color: rgb(174, 106, 24) !important;
+    font-size: 15px;
+    font-style: italic;
+    font-family: Roboto;
+}
+.navlink{
+    padding: auto;
+    color: aqua ;
+    
+}
