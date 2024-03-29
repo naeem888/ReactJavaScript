@@ -1,7 +1,43 @@
 .navmenus{
     /* margin: 20px; */
-    background-color: rgb(174, 106, 24) !important;
+
+    background-color: rgb(12, 192, 21) !important;
     font-size: 15px;
     font-style: italic;
     font-family: Roboto;
 }
+
+.topheader{
+    background-image: url("../images/catBg.jpg");
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.topoverlay{
+    min-height: 500px;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(0,0,0, 0.4);
+}
+.Topcontent{
+    margin-top: 100px;
+
+}
+.Toptitle{
+    color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Subtitle{
+    color: aliceblue;
+}
+
+.servimg {
+    width: 300px;
+    height: 200px;
+    
+}
+
+
+
